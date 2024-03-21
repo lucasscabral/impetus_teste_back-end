@@ -10,4 +10,5 @@
     - git clone "nome do repositório"
     - cd impetus_teste_back-end - *pelo terminal* ou entre na pasta impetus_teste_back-end
     - cd teste-1_impetus - *pelo terminal* ou entre na pasta teste-1_impetus
-  - Por fim, abra o seu terminal dentro do teste-1_impetus e execute o comando *npm run docker-init* para subir a aplicação com docker
+  - Por fim,abra o seu terminal dentro do teste-1_impetus e execute o comando *npm i* em seguida, o comando *npm run docker-init* para subir a aplicação com docker
+  - Agora é só abrir uma API Client de sua preferência ou até mesmo no próprio navegador no link "localhost:3000"
