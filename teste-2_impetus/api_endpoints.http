@@ -1,0 +1,35 @@
+### GET 
+GET http://localhost:3002/setup
+
+# GET
+GET http://localhost:3002/usuario
+
+### GET 
+GET http://localhost:3002/usuario/1
+
+###
+
+POST http://localhost:3002/usuario
+content-type: application/json
+
+{
+    "nome": "teste2",
+    "email": "teste2@email.com",
+    "senha":"teste123"
+}
+
+
+###
+
+PUT http://localhost:3002/usuario/1
+content-type: application/json
+
+{
+    "nome": "Maria atualizada da silva",
+    "email": "maria_atualizada@email.com",
+    "senha":"maria123"
+}
+
+###
+
+DELETE http://localhost:3002/usuario/3

@@ -1,0 +1,33 @@
+{
+  "name": "teste-2_impetus",
+  "version": "1.0.0",
+  "description": "Teste 2  de Back-End",
+  "main": "src/app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db-init": "tsc create_db.ts",
+    "start": "nodemon src/app.ts",
+    "docker-init": "docker-compose up --build && docker-compose up"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.30",
+    "@types/pg": "^8.11.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "joi": "^17.12.2",
+    "nodemon": "^3.1.0",
+    "pg": "^8.11.3",
+    "pg-promise": "^11.5.5"
+  }
+}
