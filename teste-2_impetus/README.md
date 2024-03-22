@@ -28,5 +28,6 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
 
   - Para criar o banco de dados, basta fazer uma requisição na rota "localhost:3002/setup" já com a aplicação em execução.
     - OBS: FAÇA SOMENTE UMA ÚNICA VEZ A REQUISIÇÃO NESSE ENDPOINT
+    - Já vai ser criado também alguns registros no banco de dados!
 - Para fazer os testes dos EndPoints da aplicação,basta entrar no arquivo "api_endpoints.http" que esta na raiz do projeto e
   fazer uso dos endpoints em um API Client de sua preferência,por exemplo, postman,insomnia, etc... ou se você instalou a extensão # REST Client # é só clicar no "Send Request" que está acima de cada endpoint
