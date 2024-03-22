@@ -1,0 +1,65 @@
+# GET
+GET http://localhost:3003/usuario
+
+### GET 
+GET http://localhost:3003/usuario/1
+
+###
+
+POST http://localhost:3003/usuario
+content-type: application/json
+
+{
+    "nome": "teste3",
+    "email": "teste3@email.com",
+}
+
+
+###
+
+PUT http://localhost:3003/usuario/1
+content-type: application/json
+
+{
+    "nome": "Maria atualizada da silva",
+    "email": "maria_atualizada@email.com"
+}
+
+###
+
+DELETE http://localhost:3003/usuario/3
+
+
+
+### GET
+GET http://localhost:3003/post
+
+### GET 
+GET http://localhost:3003/post/1
+
+### GET 
+GET http://localhost:3003/post/usuario/1
+
+###
+
+POST http://localhost:3003/post/2
+content-type: application/json
+
+{
+    "titulo":"Titulo Post",
+    "conteudo":"Conteudo criado"
+}
+
+###
+
+PUT http://localhost:3003/post/1
+content-type: application/json
+
+{
+    "titulo":"Titulo Post",
+    "conteudo":"Conteudo Atualizado"
+}
+
+###
+
+DELETE http://localhost:3003/post/3
