@@ -24,7 +24,7 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
    cd impetus_teste_back-end/teste-3_impetus
 2. Inicie a aplicação com Docker:
 
-  - Abra o seu terminal dentro do teste-2_impetus e execute o comando _npm run docker-init_ para subir a aplicação com docker.
+  - Abra o seu terminal dentro do teste-3_impetus e execute o comando _npm run docker-init_ para subir a aplicação com docker.
    ```bash
     npm run docker-init
    ```
