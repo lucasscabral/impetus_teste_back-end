@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  app:
+    container_name: app_teste_3
+    build: .
+    environment:
+      DATABASE_URL: postgres://postgres:postgres@db:5432/impetus_teste3
+    command: npm start
+    depends_on:
+      - db 
+    ports:
+      - 3003:3003
+    volumes:
+      - .:/usr/app
+  db:
+    image: postgres:latest
+    container_name: db
+    restart: always
+    environment:
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_USER: postgres
+          POSTGRES_DB: impetus_teste3
+    volumes:
+          - ./pgdata_teste3:/var/lib/postgresql/data
+    ports:
+          - "5432:5432"
