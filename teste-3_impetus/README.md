@@ -24,3 +24,6 @@
 
   - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
 
+![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
+
+- Caso aparaça esse erro da imagem,basta reiniciar a aplicação
