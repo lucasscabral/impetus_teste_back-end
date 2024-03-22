@@ -1,0 +1,173 @@
+{
+	"info": {
+		"_postman_id": "4d5fec65-18e1-43e2-bbfb-c4d64d533887",
+		"name": "teste-impetus",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "24912718"
+	},
+	"item": [
+		{
+			"name": "EndPoints de Usuário",
+			"item": [
+				{
+					"name": "Listar todos usuário",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3003/usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Usuário",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\":\"lucas cabral\",\r\n    \"email\":\"lucas1ewe3@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3003/usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza Usuário",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\":\"lucas cabral\",\r\n    \"email\":\"lucas123teste@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3003/usuario/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Deleta um Usuário",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3003/usuario/3"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca usuário pelo ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3003/usuario/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "EndPoints de Posts",
+			"item": [
+				{
+					"name": "Lista todos Posts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3003/post"
+					},
+					"response": []
+				},
+				{
+					"name": "Busca post pelo ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3003/post/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3003",
+							"path": [
+								"post",
+								"1"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cria um Post",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\":\"Estestasdsd Post\",\r\n    \"conteudo\":\"terceiro Conteudo criado\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3003/post/2"
+					},
+					"response": []
+				},
+				{
+					"name": "Atualiza um Post",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\":\"Testanto Post\",\r\n    \"conteudo\":\"Testanto Conteudo criado\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3003/post/7"
+					},
+					"response": []
+				},
+				{
+					"name": "Delatar um post",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3003/post/2"
+					},
+					"response": []
+				},
+				{
+					"name": "Lista os posts de um Usuário",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3003/post/usuario/2"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
