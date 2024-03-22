@@ -3,10 +3,11 @@
 - Sobre o teste
 - Foi solicitado que criasse uma API(CRUD) e rodasse em um container docker
 
-- Antes de iniciar o teste da aplicação é necessário ter instalado o docekr em seu PC
-- Instalar algum API Client de sua preferência
-
-  - Ou Instalar a extensão # REST Client # no VsCode
+  - Nome do Arquivo que para importar no Postman é "teste-2-impetus.postman_collection"
+  - Entrando no Postman, agora é só clicar em importar, como mostra na foto logo abaixo e escolher o arquivo que mencionei logo acima. 
+![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/6b036dfc-43a1-4d46-91b1-eb3f0a1eee8d)
+  - Por fim, sera gerada toda a coleção dos endpoints do teste.
+  - Ou Instalar a extensão # Thunder Client # no VsCode
 
 ## Instruções de Instalação
 
