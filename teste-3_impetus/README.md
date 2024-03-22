@@ -29,8 +29,16 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
     npm run docker-init
    ```
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/c9a561c9-6340-4aea-a62a-12798f73b6a5)
+  - Caso não tenha instalado na sua máquina o NodeJs e o NPM, basta executar somente o comando no seu terminal dentro do teste.
+   ```bash
+    docker-compose up
+   ```
+  - Dando tudo certo, aparacera no console do seu terminal a seguinte mensagem
+    ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/e6bdbdbe-bd5a-4e1e-aa05-7f0c3bc32e0b)
 
-  - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
+3. Por Fim:
+
+  - basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
 
 - Caso aparaça esse erro da imagem abaixo,basta reiniciar a aplicação
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
