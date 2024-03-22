@@ -39,6 +39,7 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
 3. Por Fim:
 
   - basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
+  - O Teste vai rodar na PORTA 3003
 
 - Caso aparaça esse erro da imagem abaixo,basta reiniciar a aplicação
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
