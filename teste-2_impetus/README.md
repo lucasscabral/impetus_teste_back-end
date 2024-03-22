@@ -14,6 +14,8 @@
     - cd impetus_teste_back-end - _pelo terminal_ ou entre na pasta impetus_teste_back-end
     - cd teste-2_impetus - _pelo terminal_ ou entre na pasta teste-2_impetus
   - Abra o seu terminal dentro do teste-2_impetus e execute o comando _npm run docker-init_ para subir a aplicação com docker.
+  ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/bd3e14ac-9fae-4154-81e5-75ac4e31b692)
+
   - Para criar o banco de dados, basta fazer uma requisição na rota "localhost:3002/setup" já com a aplicação em execução.
     - OBS: FAÇA SOMENTE UMA ÚNICA VEZ A REQUISIÇÃO NESSE ENDPOINT
 - Para fazer os testes dos EndPoints da aplicação,basta entrar no arquivo "api_endpoints.http" que esta na raiz do projeto e
