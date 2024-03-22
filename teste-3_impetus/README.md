@@ -13,17 +13,25 @@
   - Por fim, sera gerada toda a coleção dos endpoints do teste.
   - Ou Instalar a extensão # Thunder Client # no VsCode
 
-- Testando a aplicação
+## Instruções de Instalação
 
-  - clone o repositório
-    - git clone "nome do repositório"
-    - cd impetus-teste_back-end - *pelo terminal* ou entre na pasta impetus_teste_back-end
-    - cd teste-3_impetus - *pelo terminal* ou entre na pasta teste-3_impetus
-  - Abra o seu terminal dentro do teste-3_impetus e execute o comando *npm run docker-init* para subir a aplicação com docker,conforme a imagem abaixo.
-![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/c9a561c9-6340-4aea-a62a-12798f73b6a5)
+Antes de começar, certifique-se de ter o Docker instalado no seu computador.
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/lucasscabral/impetus_teste_back-end.git
+   cd impetus_teste_back-end/teste-3_impetus
+2. Clone o repositório:
+
+  - Abra o seu terminal dentro do teste-2_impetus e execute o comando _npm run docker-init_ para subir a aplicação com docker.
+   ```bash
+    npm run docker-init
+   ```
+  ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/c9a561c9-6340-4aea-a62a-12798f73b6a5)
 
   - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
 
+- Caso aparaça esse erro da imagem abaixo,basta reiniciar a aplicação
 ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
 
-- Caso aparaça esse erro da imagem,basta reiniciar a aplicação
