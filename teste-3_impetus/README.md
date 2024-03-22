@@ -43,6 +43,14 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
 
 - Caso aparaça esse erro da imagem abaixo,basta reiniciar a aplicação
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
+- Fechar a aplicação utilize as seguintes teclas dentro do terminal
+  ```bash
+    ctrl + c
+   ```
+- Para subir a aplicação novamente.
+   ```bash
+    docker-compose up
+   ```
 - Caso aparaça esse aviso da imagem abaixo, basta reiniciar a aplicação.
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/16cd1861-8cfe-4d7d-8c92-2269b8e4133a)
 
