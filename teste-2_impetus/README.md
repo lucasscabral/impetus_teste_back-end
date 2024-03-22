@@ -25,7 +25,12 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
     npm run docker-init
    ```
   ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/bd3e14ac-9fae-4154-81e5-75ac4e31b692)
-
+  - Caso não tenha instalado na sua máquina o NodeJs e o NPM, basta executar somente o comando no seu terminal dentro do teste.
+   ```bash
+    docker-compose up
+   ```
+  - Dando tudo certo, aparacera no console do seu terminal a seguinte mensagem
+    ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/e6bdbdbe-bd5a-4e1e-aa05-7f0c3bc32e0b)
   - Para criar o banco de dados, basta fazer uma requisição na rota "localhost:3002/setup" já com a aplicação em execução.
     - OBS: FAÇA SOMENTE UMA ÚNICA VEZ A REQUISIÇÃO NESSE ENDPOINT
     - Já vai ser criado também alguns registros no banco de dados!
