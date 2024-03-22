@@ -8,15 +8,19 @@
   projeto.
 
   - Nome do Arquivo que para importar no Postman é "teste-impetus.postman_collection"
-
+  - Entrando no Postman, agora é só clicar em importar, como mostra na foto logo abaixo e escolher o arquivo que mencionei logo acima. 
+![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/6b036dfc-43a1-4d46-91b1-eb3f0a1eee8d)
+  - Por fim, sera gerada toda a coleção dos endpoints do teste.
   - Ou Instalar a extensão # Thunder Client # no VsCode
 
 - Testando a aplicação
 
   - clone o repositório
     - git clone "nome do repositório"
-    - cd impetus-teste*back-end - \*pelo terminal* ou entre na pasta impetus_teste_back-end
-    - cd teste-3*impetus - \*pelo terminal* ou entre na pasta teste-3_impetus
-  - Abra o seu terminal dentro do teste-3*impetus e execute o comando \_npm run docker-init* para subir a aplicação com docker.
+    - cd impetus-teste_back-end - *pelo terminal* ou entre na pasta impetus_teste_back-end
+    - cd teste-3_impetus - *pelo terminal* ou entre na pasta teste-3_impetus
+  - Abra o seu terminal dentro do teste-3_impetus e execute o comando *npm run docker-init* para subir a aplicação com docker,conforme a imagem abaixo.
+![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/c9a561c9-6340-4aea-a62a-12798f73b6a5)
 
-  - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima.
+  - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
+
