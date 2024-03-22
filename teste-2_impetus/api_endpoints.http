@@ -1,7 +1,8 @@
+//LEMBRANDO QUE VOCÊ TEM QUE FAZER UMA ÚNICA VEZ A REQUISIÇÃO DE CRIAÇÃO DO BANCO DE DADOS
 ### GET 
 GET http://localhost:3002/setup
 
-# GET
+### GET
 GET http://localhost:3002/usuario
 
 ### GET 

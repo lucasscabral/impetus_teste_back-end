@@ -5,8 +5,8 @@
   "main": "src/app.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon src/app.ts",
-    "docker-init":"docker-compose up"
+    "start": "ts-node src/app.ts",
+    "docker-init":"docker-compose up --build"
   },
   "keywords": [],
   "author": "",
