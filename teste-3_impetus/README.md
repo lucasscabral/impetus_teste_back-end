@@ -33,5 +33,7 @@ Antes de começar, certifique-se de ter o Docker instalado no seu computador.
   - Por Fim, basta importar os endpoints no Postman, como eu falei logo acima e testar a aplicação com os endpoints.
 
 - Caso aparaça esse erro da imagem abaixo,basta reiniciar a aplicação
-![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
+  ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/aa4a32bb-4220-4a97-bee2-5f011656bf0c)
+- Caso aparaça esse aviso da imagem abaixo, basta reiniciar a aplicação.
+  ![image](https://github.com/lucasscabral/impetus_teste_back-end/assets/80989256/16cd1861-8cfe-4d7d-8c92-2269b8e4133a)
 
